@@ -1,9 +1,12 @@
 <template>
-    <div class="todolist">
+    <div class="todoCard">
+        <button v-on:click="del" class="delete">
+            <span>DEL</span>
+        </button>
         <h2>{{date}}</h2>
         <div class="content">
-            <h1>{{todoName}}</h1>
-            <p>{{todoDescribtion}}</p>
+            <h1>{{title}}</h1>
+            <p>{{describtion}}</p>
         </div>
     </div>
     
@@ -14,15 +17,28 @@
 export default{
     name: "TodoCard",
     props:{
-        date: String,
-        todoName: String,
-        todoDescribtion: String,
+        todo: [],
+        call: Function,
     },
+    data(){
+        return{
+            date: this.todo.attributes.Day,
+            title: this.todo.attributes.Name,
+            describtion: this.todo.attributes.Describtion,
+            id: this.todo.id
+        }
+    },
+    methods:{
+        del(){
+            var url = "http://localhost:1337/api/todos/" + this.todo.id;
+            this.call(url)
+        }
+    }
 }
 </script>
 
 <style>
-.todolist{
+.todoCard{
     width: 300px;
     height: 400px;
     border: 5px solid black;
@@ -59,5 +75,14 @@ p{
     margin-left: 25px;
     font-size: 20px;
     margin-top: 0;
+}
+.delete{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-top-right-radius: 30px;
+    width: 70px;
+    height: 18%;
+    background-color: lightcoral;
 }
 </style>
