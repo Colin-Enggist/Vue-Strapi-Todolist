@@ -1,57 +1,21 @@
-# 🚀 Getting started with Strapi
+# Packages
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+Vue front-end and strapi back-end
 
-### `develop`
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+# Purpose
 
-```
-npm run develop
-# or
-yarn develop
-```
+This Reposetory has been made to show my approach on creating a simple todo list and fetching Data from a back-end Server with the methods, GET, POST, DELETE
 
-### `start`
+# What I want to improve
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+in future bigger Projects, I definetly want to improve Data-structure and cleaning up the Code. 
+This was my first time working with Strapi and Vue, though through my expirience with React and React-native it was pretty easy to Understand and the Documentations from Vue and Strapi were a good source to get familiar with the Syntax. 
 
-```
-npm run start
-# or
-yarn start
-```
+# Goal for this Repository
 
-### `build`
+As mentioned my Goal was to simply make a few fetch requests and creating a reference for the Code of my first Strapi-Vue Application. I definetly would need to clean up Code in my functions and structure my Components better, like I do in my React and React-native Projects. The Goal of having a working Todo-list is achieved but this Code should be seen as a reference on my progress after working with vue and strapi for 3-4 days. 
 
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+# Future
 
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+I definetly also want to upload a reposetory of a Project where I have a clean Code and a proper structure in my Component folder. This will properly be a React-Native Project because I simply have a lot of expirience with that Frame-work and I also want to have a reference for a Project where I implement all of the knowledge I gained in the time I started working and learning in Web-developement.
