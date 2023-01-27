@@ -18,4 +18,4 @@ As mentioned my Goal was to simply make a few fetch requests and creating a refe
 
 # Future
 
-I definetly also want to upload a reposetory of a Project where I have a clean Code and a proper structure in my Component folder. This will properly be a React-Native Project because I simply have a lot of expirience with that Frame-work and I also want to have a reference for a Project where I implement all of the knowledge I gained in the time I started working and learning in Web-developement.
+I definetly also want to upload a reposetory of a Project where I have a clean Code and a proper structure in my Component folder.
